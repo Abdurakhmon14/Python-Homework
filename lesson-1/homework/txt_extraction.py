@@ -1,16 +1,34 @@
-##Homework1
-##extract car names from this text
+#   given a side of squere. find its perimetr
 
-txt='MsaatmiazD'
-car1= txt[::2]
+a = int(input("Kvadratni tomonini kiriting:"))
+b = 4 * a
+c = pow(a, 2)
+print("perimetri ", b, "ga teng, Yuzi ", c, "ga teng")
 
+#   given diameter of circle. Find its length.
+import math
 
-car2 = txt[-1::-2]
+a = int(input("Diameterni kiriting: "))
+r = a/2
+p = math.pi
+l = 2 *p *r
 
-print(F"Name of the first car is {car1} \n Second car name is {car2}")
+print("Aylananing uzunligi ", l, " ga teng")
 
-##Homework2 
+#   given two numbers a and b. Find their mean.
 
-txt = "I' am John. I am from London"
-r = txt.split()
-r[-1]
+a = int(input("birinchi sonni kiriting: "))
+b = int(input("birinchi sonni kiriting: "))
+result = (a + b) / 2
+result
+
+#given two numbers a and b. Find their sum, product and square of each number.
+
+a = int(input("birinchi sonni kiriting: "))
+b = int(input("birinchi sonni kiriting: "))
+summ = a + b
+product = a * b
+square1 = pow(a, 2)
+square2 = pow(b, 2)
+
+print(summ, product, square1, square2)
